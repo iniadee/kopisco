@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Login 2</title>
+
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: bisque;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .kotak1{
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: bisque;
+            padding: 50px;
+        }
+        .kotak2{
+            width: 100%;
+            height: 40vh;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: bisque;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 10px;
+
+        }
+
+        .card{
+            height: 50vw;
+            width: 100vb;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lupapass{
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: end;
+        }
+
+        button{
+            background-color: bisque;
+            border-radius: 10px;
+            width: 150px;
+            height: 30px;
+            
+        }
+        
+        .username{
+            border-radius: 30px;
+            width: 300px;
+            height: 30px;
+        }
+       
+        .img{
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+
+        .kotak{
+            width: 400px;
+            height: 110px;
+            background-color: black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            align-items: center;
+            
+        }
+        
+        .qrcode{
+            padding: 5px;
+            border-radius: 20px;
+        }
+        .sm{
+            display: flex;
+            padding: 110px;
+            
+        }
+
+        .instagram{
+            padding: 10px;
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .whatsapp{
+            padding: 10px;
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .tiktok{
+            padding: 10px;
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        h1{
+            color: white;
+            padding: 10px;
+            
+        }
+        span{
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="kotak1">
+        <div class="card">
+        <div class="img">
+            <img src="img/logo.png" alt="" width="150px">
+        </div>
+        <div class="input">
+            <input type="text" name="" id="" placeholder="  username" class="username"> 
+           
+            
+            <div class="lupapass">
+                <div class="btnlogin">
+                    <button>Request Token</button> 
+                </div>
+                <div class="lpass"><a href="">Kembali Ke Halaman Login </a></div>
+            </div>
+            
+
+        </div>
+        </div>
+      
+       
+    </div>
+    <div class="kotak2">
+        <div class="sm">
+            <div class="instagram">
+                <img src="img/ig.png" alt="" width="40px">
+                <span>KOPICU</span>
+            </div>
+            <div class="tiktok">
+                <img src="img/tiktok.png" alt="" width="40px">
+                <span>KOPICU</span>
+                
+            </div>
+            <div class="whatsapp">
+                <img src="img/wa.png" alt="" width="40px">
+                <span>0812345678</span>
+
+            </div>
+        </div>
+
+        <div class="qr">
+            <div class="kotak">
+            <img src="img/qrcode.png" alt="" width="100px" class="qrcode">
+            <h1>SCAN ME</h1>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
